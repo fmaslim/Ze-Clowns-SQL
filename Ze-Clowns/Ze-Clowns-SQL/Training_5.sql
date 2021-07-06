@@ -2,13 +2,20 @@ use Testingdb;
 
 create table CustomerInfo (
 	CustomerID int,
-	FirstName  varchar(50),
-	LastName   varchar(50),
-	Address1   varchar(100),
-	Address2   varchar(100),
-	City       varchar(50),
-	Zip        tinyint,
-	Country    varchar(50)
+	CustomerFirstName  varchar(50),
+	CustomerLastName   varchar(50),
+	CustomerAddress1   varchar(100),
+	CustomerAddress2   varchar(100),
+	CustomerCity       varchar(50),
+	CustomerZip        tinyint,
+	CustomerCountry    varchar(50)
 );
 
+
+create table Products (
+	Product_ID int,
+	ProductName varchar(50),
+	ProductDesc varchar(250),
+	ProductPrice int
+);
 
