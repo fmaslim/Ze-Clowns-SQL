@@ -1,5 +1,34 @@
-<h1>Hello, world!</h1>
+<h1>Hello, world! Test123</h1>
 <p>Welcome to your new single-page application, built with:</p>
+
+<label id="id-font-red">Employee Name:  {{ employeeName }}</label>
+<div class="class-border-red">
+  In-line styling
+  <br /><br />
+        
+</div>
+<br />
+
+<div class="class-border-red">
+  One-way binding: {{ employeeName }}
+  <br />
+  Two-way biding:
+  <input class="class-border-red" type="text" [(ngModel)]="streetName" />
+  <br />
+
+  Street Name: {{ streetName }}
+
+  <br /><br />
+  True and False: {{ boolTrue && boolFalse  }}
+
+  <br /><br />
+  4 + 4 = {{ 4 + 4 }}
+
+  <br /><br />
+  Calling getResult function: {{ getResult() }}
+</div>
+<br />
+
 <ul>
   <li><a href='https://get.asp.net/'>ASP.NET Core</a> and <a href='https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx'>C#</a> for cross-platform server-side code</li>
   <li><a href='https://angular.io/'>Angular</a> and <a href='http://www.typescriptlang.org/'>TypeScript</a> for client-side code</li>

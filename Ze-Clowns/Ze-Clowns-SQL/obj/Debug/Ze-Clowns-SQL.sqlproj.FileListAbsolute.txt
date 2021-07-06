@@ -1,0 +1,6 @@
+C:\Users\User\Downloads\GitHub_Repository\Ze-Clowns-SQL\Ze-Clowns\Ze-Clowns-SQL\bin\Debug\Ze-Clowns-SQL.dacpac
+C:\Users\User\Downloads\GitHub_Repository\Ze-Clowns-SQL\Ze-Clowns\Ze-Clowns-SQL\bin\Debug\Ze_Clowns_SQL.dll
+C:\Users\User\Downloads\GitHub_Repository\Ze-Clowns-SQL\Ze-Clowns\Ze-Clowns-SQL\bin\Debug\Ze_Clowns_SQL.pdb
+C:\Users\User\Downloads\GitHub_Repository\Ze-Clowns-SQL\Ze-Clowns\Ze-Clowns-SQL\obj\Debug\Ze-Clowns-SQL.sqlproj.AssemblyReference.cache
+C:\Users\User\Downloads\GitHub_Repository\Ze-Clowns-SQL\Ze-Clowns\Ze-Clowns-SQL\obj\Debug\Ze_Clowns_SQL.dll
+C:\Users\User\Downloads\GitHub_Repository\Ze-Clowns-SQL\Ze-Clowns\Ze-Clowns-SQL\obj\Debug\Ze_Clowns_SQL.pdb

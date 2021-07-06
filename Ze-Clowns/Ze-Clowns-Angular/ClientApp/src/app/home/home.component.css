@@ -1,0 +1,13 @@
+body {
+}
+
+.class-border-red {
+    border: 1px solid red;
+    color: darkblue;
+    font-weight: bold;
+}
+
+#id-font-red {
+  color: darkred;
+  font-weight: bold;
+}
