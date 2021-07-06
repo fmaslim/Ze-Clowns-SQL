@@ -59,5 +59,6 @@
     <Build Include="Git_Table_1.sql" />
     <Build Include="dmaslim_Stored_Procedure_1.sql" />
     <Build Include="Training_5.sql" />
+    <Build Include="EmployeeTable.sql" />
   </ItemGroup>
 </Project>
