@@ -62,5 +62,6 @@
     <Build Include="Tables\Products.sql" />
     <Build Include="Tables\EmployeeTable.sql" />
     <Build Include="Tables\Git_Table_1.sql" />
+    <Build Include="Tables\Sales.sql" />
   </ItemGroup>
 </Project>
