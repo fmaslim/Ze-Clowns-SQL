@@ -24,3 +24,4 @@ CREATE TABLE [dbo].[Products]
 );
 
 
+-- Todo: Add Product Price
