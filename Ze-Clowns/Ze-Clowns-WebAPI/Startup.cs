@@ -26,7 +26,12 @@ namespace Ze_Clowns_WebAPI
 		// This method gets called by the runtime. Use this method to add services to the container.
 		public void ConfigureServices(IServiceCollection services)
 		{
-
+			services.AddCors(o => o.AddPolicy("AllowAllHeaders", builder =>
+			{
+				builder.AllowAnyOrigin()
+					   .AllowAnyMethod()
+					   .AllowAnyHeader();
+			}));
 			services.AddControllers();
 			services.AddSwaggerGen(c =>
 			{
@@ -43,6 +48,8 @@ namespace Ze_Clowns_WebAPI
 				app.UseSwagger();
 				app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Ze_Clowns_WebAPI v1"));
 			}
+
+			app.UseCors("AllowAllHeaders");
 
 			app.UseHttpsRedirection();
 
