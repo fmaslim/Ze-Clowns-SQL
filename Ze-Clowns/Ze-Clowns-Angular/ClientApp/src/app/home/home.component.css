@@ -11,3 +11,20 @@ body {
   color: darkred;
   font-weight: bold;
 }
+
+.test-border-width{
+    border: 1px solid;
+}
+
+.test-border-red{
+    border-color: red;
+}
+
+.test-border-blue{
+    border-color: blue;
+}
+.input-label{
+    color:green;
+    font-style:italic;
+    font-weight: bold;
+}

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -24,6 +25,8 @@ namespace Ze_Clowns_WebAPI.Models
             }
         }
 
+        [Required]
+        [MaxLength(10, ErrorMessage = "Last Name cannot be longer 10 characters")]
         public String Lastname
         {
             get { return _lastname; }
@@ -42,7 +45,8 @@ namespace Ze_Clowns_WebAPI.Models
             }
         }
 
-        public String Address2 {get;set;}
+        [Required]
+        public string Address2 { get; set; }
 
         public Int32  EmployeeID { get; set; }
 
@@ -96,5 +100,85 @@ namespace Ze_Clowns_WebAPI.Models
 
     }
 
+    public interface IAnimal
+    {
+        void MakeSound();
+    }
 
+    public class Dog : IAnimal
+    {
+        public void MakeSound()
+        {
+            Console.Write("Woof");
+        }
+    }
+
+    public class Cat : IAnimal
+    {
+        public void MakeSound()
+        {
+            Console.Write("Meow");
+        }
+    }
+
+    public class Main
+    {
+        public Main()
+        {
+
+        }
+
+        public Main(IAnimal animal)
+        {
+
+        }
+
+        public void DoSomething()
+        {
+            IAnimal animal = new Dog();
+            IAnimal animal2 = new Cat();
+
+            animal.MakeSound();
+        }
+
+        public void DoStuff(IAnimal animal)
+        {
+            animal.MakeSound();
+        }
+    }
+
+    public class Foo
+    {
+        public void CalculateStuff()
+        {
+            Main obj = new Main();
+
+            IAnimal dog = new Dog();
+            obj.DoStuff(dog);
+
+            IAnimal cat = new Cat();
+            obj.DoStuff(cat);
+        }
+    }
+
+    public interface IPerson
+    {
+        void CalculateSalary();
+    }
+
+    public class Male : IPerson
+    {
+        public void CalculateSalary()
+        {
+            Console.Write("100,000");
+        }
+    }
+
+    public class Female : IPerson
+    {
+        public void CalculateSalary()
+        {
+            Console.Write("90,000");
+        }
+    }
 }
