@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ze-Clowns-Angular", "Ze-Clowns-Angular\Ze-Clowns-Angular.csproj", "{E58A7731-86CF-4D05-A30B-0A4FF493FF2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ze-Clowns-WebAPI", "Ze-Clowns-WebAPI\Ze-Clowns-WebAPI.csproj", "{98759F15-0B7E-4BDC-AB73-D061FFE5778B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ze-Clowns-WebAPI", "Ze-Clowns-WebAPI\Ze-Clowns-WebAPI.csproj", "{98759F15-0B7E-4BDC-AB73-D061FFE5778B}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Ze-Clowns-SQL", "Ze-Clowns-SQL\Ze-Clowns-SQL.sqlproj", "{016B6203-AA54-4BE2-B070-008C313E8780}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ze-Clowns-Test", "Ze-Clowns-Test\Ze-Clowns-Test.csproj", "{9EDE39E4-5D7C-4A87-8E29-53DA64691BFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{016B6203-AA54-4BE2-B070-008C313E8780}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{016B6203-AA54-4BE2-B070-008C313E8780}.Release|Any CPU.Build.0 = Release|Any CPU
 		{016B6203-AA54-4BE2-B070-008C313E8780}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9EDE39E4-5D7C-4A87-8E29-53DA64691BFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EDE39E4-5D7C-4A87-8E29-53DA64691BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EDE39E4-5D7C-4A87-8E29-53DA64691BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EDE39E4-5D7C-4A87-8E29-53DA64691BFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

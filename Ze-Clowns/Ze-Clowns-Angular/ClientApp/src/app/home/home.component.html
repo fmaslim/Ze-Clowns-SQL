@@ -1,43 +1,68 @@
-<h1>Hello, world! Test123</h1>
-<p>Welcome to your new single-page application, built with:</p>
+<h1>h1 > This is a test</h1>
 
-<label id="id-font-red">Employee Name:  {{ employeeName }}</label>
-<div class="class-border-red">
-  In-line styling
-  <br /><br />
-        
-</div>
+
+<p class="test-border-blue test-border-width">
+  Rencana damai dengan Korea Utara diutarakan oleh Presiden Korsel Moon Jae-in di Sidang Umum PBB. Hingga kini, Korut dan Korsel sebetulnya masih berperang.
+</p>
+<hr />
+<hr />
+<p class="test-border-red test-border-width">
+  Rencana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+  damai dengan Korea Utara diutarakan oleh Presiden Korsel Moon Jae-in di Sidang Umum PBB. Hingga kini, Korut dan Korsel sebetulnya masih berperang.
+</p>
+
+<code>This is a code</code>
 <br />
-
-<div class="class-border-red">
-  One-way binding: {{ employeeName }}
-  <br />
-  Two-way biding:
-  <input class="class-border-red" type="text" [(ngModel)]="streetName" />
-  <br />
-
-  Street Name: {{ streetName }}
-
-  <br /><br />
-  True and False: {{ boolTrue && boolFalse  }}
-
-  <br /><br />
-  4 + 4 = {{ 4 + 4 }}
-
-  <br /><br />
-  Calling getResult function: {{ getResult() }}
+<pre>Rencana damai dengan Korea Utara</pre>
+<div>
+  <a href="https://www.google.com">diutarakan</a> oleh Presiden Korsel Moon Jae-in di Sidang Umum PBB. Hingga kini, Korut dan Korsel sebetulnya masih berperang.
 </div>
+sebetulnya masih berperang.
+<img src="../../assets/Images/David Co Logo 3.png" width="100" height="100" alt="Logo 3" title="Logo 3" />
+<p>Here is a quote from WWF's website:</p>
 <br />
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+  For 50 years, WWF has been protecting the future of nature.
+  The world's leading conservation organization,
+  WWF works in 100 countries and is supported by
+  1.2 million members in the United States and
+  close to 5 million globally.
+</blockquote>
 
-<ul>
-  <li><a href='https://get.asp.net/'>ASP.NET Core</a> and <a href='https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx'>C#</a> for cross-platform server-side code</li>
-  <li><a href='https://angular.io/'>Angular</a> and <a href='http://www.typescriptlang.org/'>TypeScript</a> for client-side code</li>
-  <li><a href='http://getbootstrap.com/'>Bootstrap</a> for layout and styling</li>
-</ul>
-<p>To help you get started, we've also set up:</p>
-<ul>
-  <li><strong>Client-side navigation</strong>. For example, click <em>Counter</em> then <em>Back</em> to return here.</li>
-  <li><strong>Angular CLI integration</strong>. In development mode, there's no need to run <code>ng serve</code>. It runs in the background automatically, so your client-side resources are dynamically built on demand and the page refreshes when you modify any file.</li>
-  <li><strong>Efficient production builds</strong>. In production mode, development-time features are disabled, and your <code>dotnet publish</code> configuration automatically invokes <code>ng build</code> to produce minified, ahead-of-time compiled JavaScript files.</li>
-</ul>
-<p>The <code>ClientApp</code> subdirectory is a standard Angular CLI application. If you open a command prompt in that directory, you can run any <code>ng</code> command (e.g., <code>ng test</code>), or use <code>npm</code> to install extra packages into it.</p>
+<div class="test-border-blue test-border-width">
+  <div class="test-border-red test-border-width" style="padding:50px;margin:5px">
+    This is a test
+  </div>
+
+</div> 
+
+
+<div>
+  <form>
+    <label for="firstName" class="input-label"> {{ firstName }}</label>&nbsp;
+    <input id="firstName" type="text" /><br />
+    <label for="lastName" class="input-label">{{lastName}}</label> &nbsp;
+    <input id="lastName" type="text" /><br />
+
+    <label for="sex" class="input-label"> {{sex}}</label> &nbsp;
+    <input id="sex_male" type="radio" name="sex" value="1" />Male
+    <input id="sex_female" type="radio" name="sex" value="2" />Female<br />
+
+    <label for="activeEmployee" class="input-label"> {{activeEmployee}}</label>&nbsp;
+    <input id="activeEmployee" type="checkbox" name="activeEmployee" value="1" />
+    <br />
+
+    <input type="text" tabindex="-1" (focus)="updateLabels($event)" (focusout)="revertLabels($event)" [value]="clickMeButton" />
+    <br />
+    datetime-local: <input type="datetime-local" /><br />
+    date: <input type="date" /><br />
+    datetime: <input type="datetime" /><br />
+
+    tel: <input type="tel" /><br />
+    <input type="reset" />
+
+
+
+
+  </form>
+</div>

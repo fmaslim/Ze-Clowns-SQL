@@ -27,3 +27,4 @@ C:\Users\User\Downloads\GitHub_Repository\Ze-Clowns-SQL\Ze-Clowns\Ze-Clowns-WebA
 C:\Users\User\Downloads\GitHub_Repository\Ze-Clowns-SQL\Ze-Clowns\Ze-Clowns-WebAPI\obj\Debug\net5.0\ref\Ze-Clowns-WebAPI.dll
 C:\Users\User\Downloads\GitHub_Repository\Ze-Clowns-SQL\Ze-Clowns\Ze-Clowns-WebAPI\obj\Debug\net5.0\Ze-Clowns-WebAPI.pdb
 C:\Users\User\Downloads\GitHub_Repository\Ze-Clowns-SQL\Ze-Clowns\Ze-Clowns-WebAPI\obj\Debug\net5.0\Ze-Clowns-WebAPI.genruntimeconfig.cache
+C:\Users\User\Downloads\GitHub_Repository\Ze-Clowns-SQL\Ze-Clowns\Ze-Clowns-WebAPI\bin\Debug\net5.0\Newtonsoft.Json.dll

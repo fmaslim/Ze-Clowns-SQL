@@ -4,3 +4,7 @@ C:\Users\User\Downloads\GitHub_Repository\Ze-Clowns-SQL\Ze-Clowns\Ze-Clowns-SQL\
 C:\Users\User\Downloads\GitHub_Repository\Ze-Clowns-SQL\Ze-Clowns\Ze-Clowns-SQL\obj\Debug\Ze-Clowns-SQL.sqlproj.AssemblyReference.cache
 C:\Users\User\Downloads\GitHub_Repository\Ze-Clowns-SQL\Ze-Clowns\Ze-Clowns-SQL\obj\Debug\Ze_Clowns_SQL.dll
 C:\Users\User\Downloads\GitHub_Repository\Ze-Clowns-SQL\Ze-Clowns\Ze-Clowns-SQL\obj\Debug\Ze_Clowns_SQL.pdb
+C:\Users\User\Downloads\GitHub_Repository\Ze-Clowns-SQL\Ze-Clowns\Ze-Clowns-SQL\obj\Debug\Model.xml
+C:\Users\User\Downloads\GitHub_Repository\Ze-Clowns-SQL\Ze-Clowns\Ze-Clowns-SQL\obj\Debug\refactor.xml
+C:\Users\User\Downloads\GitHub_Repository\Ze-Clowns-SQL\Ze-Clowns\Ze-Clowns-SQL\obj\Debug\postdeploy.sql
+C:\Users\User\Downloads\GitHub_Repository\Ze-Clowns-SQL\Ze-Clowns\Ze-Clowns-SQL\obj\Debug\predeploy.sql
