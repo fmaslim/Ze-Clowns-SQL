@@ -132,6 +132,11 @@ namespace Ze_Clowns_WebAPI.Models
         {
             return "2-day shipping";
         }
+
+        public override double GetFinalPrice()
+        {
+            throw new NotImplementedException();
+        }
     }
 
 }

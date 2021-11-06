@@ -7,6 +7,12 @@ namespace Ze_Clowns_WebAPI.Models
 {
     public abstract class AbstractCustomer
     {
+        public Double Price { get; set; }
+        protected Double TaxRate { get; set; }
+        protected Double DiscountRate { get; set; }
+
+
+
         public abstract Double GetDiscount();
 
         public virtual String GetShipping()
@@ -14,5 +20,7 @@ namespace Ze_Clowns_WebAPI.Models
             return "3-day shipping";
         }
 
+        public abstract Double GetFinalPrice();
+        
     }
 }

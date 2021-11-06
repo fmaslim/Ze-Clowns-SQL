@@ -88,5 +88,36 @@ namespace Ze_Clowns_WebAPI.Controllers
         public void Delete(int id)
         {
         }
+
+        // Get api/Home/FinalPrice?price=750
+        [HttpGet]
+        [Route("FinalPrice")]
+        public IActionResult FinalPrice([FromQuery] Double price)
+        {
+
+            try
+            {
+
+                StandardCustomer standardCustomer = new StandardCustomer(price);
+                PremiumCustomer premiumCustomer = new PremiumCustomer(price);
+                VIPCustomer vipCustomer = new VIPCustomer(price);
+
+              
+
+                var obj = new {
+                    UserEnteredPrice = price,
+                    StandardFinalPrice = standardCustomer.GetFinalPrice(),
+                    PremiumFinalPrice = premiumCustomer.GetFinalPrice(),
+                    VIPFinalPrice = vipCustomer.GetFinalPrice()
+                };
+
+                return Ok(obj);
+            }
+            catch (Exception ex)
+            {
+                //NotFound(ex.Message);
+                return BadRequest(ex.Message);
+            }
+        }
     }
 }
