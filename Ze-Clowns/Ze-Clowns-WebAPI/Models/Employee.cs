@@ -56,7 +56,7 @@ namespace Ze_Clowns_WebAPI.Models
 
             Firstname = "Default FirstName";
             Lastname = "Default Lastname";
-            Address1 = "Default Address1";
+            Address1 = "Default Address 1";
             Address2 = "Default Address 2";
             EmployeeID = 12345;
         }
