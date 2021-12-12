@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
+using Ze_Clowns_WebAPI.Models.Enums;
 
 namespace Ze_Clowns_WebAPI.Models
 {
@@ -14,6 +15,9 @@ namespace Ze_Clowns_WebAPI.Models
         private String  _address1;
         private String  _address2;
         private Int32   _employeeID;
+        private Int32? _employeeType;
+        private String _employeeTypeString;
+        private EmployeeType? _employeeTypeTest;
 
         //Properties
         public String Firstname
@@ -21,6 +25,10 @@ namespace Ze_Clowns_WebAPI.Models
             get { return _firstname; }
             set
             {
+                if (value.Length > 100)
+                {
+                    throw new ArgumentException("FirstName cannot be longer than 10 characters");
+                }
                 _firstname = value;
             }
         }
@@ -49,6 +57,24 @@ namespace Ze_Clowns_WebAPI.Models
         public string Address2 { get; set; }
 
         public Int32  EmployeeID { get; set; }
+
+        public Int32? EmployeeType 
+        {
+            get { return _employeeType; }
+            set
+            {
+                _employeeType = value;
+            }
+        }
+
+        public String EmployeeTypeString
+        {
+            get { return _employeeTypeString; }
+            set
+            {
+                _employeeTypeString = value;
+            }
+        }
 
         //Constructors
         public Employee()
