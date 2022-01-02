@@ -22,6 +22,8 @@ namespace Ze_Clowns_WebAPI.Models
         ModifiedDate
 
     }
+
+    // POCO - Plain Old CLR (Common Language Runtime) Object
     public class Person
     {
         public Int32 BusinessEntityID { get; set; }
